@@ -32,7 +32,7 @@
                             <?=$this->component($this->boxes['subMenu']);?>
                         </div>
                     <?}?>
-                    <div class="left" id="innerContent" style="width:<?=$this->componentWidth($this->data)?>px;">
+                    <div class="left" id="innerContent">
                         <?=$this->component($this->data);?>
                     </div>
                     <div class="clear"></div>
