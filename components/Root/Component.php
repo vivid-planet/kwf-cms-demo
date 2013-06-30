@@ -5,18 +5,9 @@ class Root_Component extends Kwc_Root_Component
     {
         $ret = parent::getSettings();
 
-        $ret['generators']['box']['component']['mainMenu'] = 'Menu_Main_Component';
-        $ret['generators']['box']['component']['subMenu'] = 'Menu_Sub_Component';
-        $ret['generators']['box']['component']['bottomMenu'] = 'Menu_Bottom_Component';
-        $ret['generators']['box']['component']['metaTags'] = 'Kwc_Box_MetaTagsContent_Component';
-        $ret['generators']['title']['component'] = 'Kwc_Box_TitleEditable_Component';
+        $ret['theme'] = Kwf_Config::getValue('kwc.theme');
+        Kwf_Component_Theme_Abstract::applySettings($ret);
 
-        $ret['editComponents'] = array('title', 'metaTags');
-
-        $ret['contentWidth'] = 780;
-        $ret['contentWidthBoxSubtract'] = array(
-            'subMenu' => 205,
-        );
         return $ret;
     }
 }
