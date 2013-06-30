@@ -4,21 +4,12 @@
         <title>404 - <?=trlKwf('File not found');?> - <?=Kwf_Registry::get('config')->application->name?></title>
         <?= $this->assets('Frontend') ?>
         <?= $this->debugData() ?>
-        <link rel="shortcut icon" href="/assets/web/images/favicon.ico" /> 
+        <link rel="shortcut icon" href="/assets/web/images/favicon.ico" />
     </head>
-    <body class="frontend">
+    <body class="frontend error404">
         <div id="page">
             <div id="outerHeader">
-                <div id="header">
-                    <div class="left" id="logo">
-                        <a href="/">
-                            <img src="/assets/web/images/logo.jpg" alt="RegioTool" />
-                        </a>
-                    </div>
-                    <div class="right" id="login">&nbsp;</div>
-                    <div class="clear"></div>
-                    <div id="mainMenu">&nbsp;</div>
-                </div>
+                <div id="header">&nbsp;</div>
             </div>
             <div id="outerContent">
                 <div id="content">
@@ -29,10 +20,10 @@
                         <ul>
                             <li>
                                 <?=trlKwf('If you typed the address, make sure the spelling is correct');?><br/>
-                                <?=trlKwf('Note: Most addresses are also case sensitive');?>!!
+                                <?=trlKwf('Note: Most addresses are also case sensitive');?>
                             </li>
                             <li>
-                                <?=trlKwf('Check the page, you are comming from');?>.<br/><br/>
+                                <?=trlKwf('Check the page you are coming from');?>.<br/><br/>
                             </li>
                         </ul>
                         <p><strong><a href="/">&laquo; <?=trlKwf('Go back to main page');?></a></strong></p>
@@ -43,7 +34,6 @@
                 <div id="footer">&nbsp;</div>
             </div>
         </div>
-        <?= $this->statisticCode() ?>
     </body>
 </html>
 
