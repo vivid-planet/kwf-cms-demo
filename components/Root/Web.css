@@ -24,25 +24,3 @@
     color: var(typo);
     line-height: 18px;
 }
-
-.webForm label { text-align: left; }
-.webForm .submitWrapper { margin: 10px 0px 10px 140px; }
-.webForm button { color: var(light); background: none !important; border: none !important; }
-.webForm button:hover { color: var(mainColor); }
-
-.webForm .beforeButton,
-.webForm .afterButton {
-    display: block;
-    float: left;
-    width: 4px;
-    height: 27px;
-    background: url('/assets/web/images/webFormButtonLeft.png') no-repeat top right;
-}
-.webForm .button {
-    float: left;
-    height: 27px;
-    background: url('/assets/web/images/webFormButtonCenter.png') repeat-x top left;
-}
-.webForm .afterButton {
-    background: url('/assets/web/images/webFormButtonRight.png') no-repeat top left;
-}
