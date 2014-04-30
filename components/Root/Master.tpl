@@ -41,7 +41,7 @@
                     </div>
                     <div class="vivid">
                         <a href="http://www.vivid-planet.com" title="Vivid Planet Software GmbH" rel="popup_blank">
-                            <img src="/assets/web/images/vividPlanetDark.png" alt="Vivid Planet Software GmbH" />
+                            <?=$this->image('/assets/web/images/vividPlanetDark.png', 'Vivid Planet Software GmbH')?>
                         </a>
                     </div>
                     <div class="based">
