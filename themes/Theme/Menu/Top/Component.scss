@@ -1,0 +1,24 @@
+.cssClass {
+    ul {
+        float: right;
+        li {
+            float: left;
+            margin: 0;
+            a {
+                line-height: 20px;
+                padding: 4px 10px;
+                display: block;
+                border-right: 1px solid #DDDDDD;
+                color: #333;
+                font-weight: bold;
+                &:hover {
+                    background: #404551;
+                    color: white;
+                }
+            }
+            &:first-child {
+                border-left: 1px solid #DDDDDD;
+            }
+        }
+    }
+}

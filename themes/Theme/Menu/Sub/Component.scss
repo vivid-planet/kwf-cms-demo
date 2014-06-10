@@ -1,0 +1,43 @@
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/box-sizing";
+
+.cssClass {
+    position: relative;
+    ul.menu {
+        display: block;
+        height: 40px;
+        width: 100%;
+        position: absolute;
+        li {
+            float: left;
+            a {
+                @include box-sizing(border-box);
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 12px;
+                width: 100%;
+                display: block;
+                padding: 12px 0px;
+                height: 40px;
+                text-align: center;
+                background: #FF5C00;
+                border-left: 1px solid white;
+                color: #FFFFFF;
+                &:hover {
+                    background: #AA4008;
+                }
+
+            }
+            &:first-child {
+                a {
+                    border-left: none;
+                }
+            }
+            &.selected {
+                a {
+                    background: #AA4008;
+                }
+            }
+        }
+    }
+}

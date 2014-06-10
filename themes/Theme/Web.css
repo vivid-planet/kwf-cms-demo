@@ -1,0 +1,20 @@
+.webStandard { font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: var(typo); }
+.webStandard strong { font-weight: bold; }
+.webStandard em { font-style: italic; }
+
+.webStandard p { font-size: 14px; line-height: 18px; color: var(typo); margin-bottom: 20px; font-family: 'Arial', sans-serif; }
+
+.webStandard h1 { font-size: 32px; line-height: 38px; margin-bottom: 5px; color: #82CFA2; font-weight: 100; font-family: Arial, Helvetica, sans-serif; } /* Überschrift 1 */
+.webStandard h2 { font-size: 26px; line-height: 30px; margin-top: 0px; margin-bottom: 5px; color: #6A6E72; font-weight: 100; font-family: Arial, Helvetica, sans-serif; } /* Überschrift 2 */
+.webStandard h3 { font-size: 20px; line-height: 24px; margin-top: 0px; margin-bottom: 5px; color: #FF5C00; font-weight: 100; font-family: Arial, Helvetica, sans-serif; } /* Überschrift 3 */
+.webStandard h4 { font-size: 16px; margin-top: 0px; margin-bottom: 5px; font-weight: normal; color: var(mainColor); } /* Überschrift 4 */
+.webStandard h5 { font-size: 14px; margin-top: 0px; margin-bottom: 5px; font-weight: normal; color: var(mainColor); } /* Überschrift 5 */
+
+.webStandard a { text-decoration: none; color: var(mainColor); outline: none;  font-family: 'Arial', sans-serif; }
+.webStandard a:hover { text-decoration: none; color: var(secColor); }
+
+.webStandard ol { margin-bottom: 0px; margin-left: 0px; line-height: 18px; }
+.webStandard ul { margin-bottom: 0px; line-height: 18px; }
+.webStandard li { margin-bottom: 5px; color: var(typo); list-style-type: square; list-style-color: var(mainColor); }
+.webStandard ol li { list-style-type: decimal; }
+.webStandard ul li { list-style-type: disc; font-size: 13px; line-height: 18px; color: var(typo);}

@@ -1,0 +1,33 @@
+.cssClass {
+    ul.menu {
+        text-align: right;
+        li {
+            float: left;
+            a {
+                color: #FFF;
+                font-size: 13px;
+                line-height: 18px;
+                text-transform: uppercase;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-left: 1px solid white;
+            }
+            &.first {
+                a {
+                    padding-left: 0;
+                }
+            }
+            &.last {
+                a {
+                    padding-right: 0;
+                }
+            }
+            &:first-child {
+                a {
+                    border-left: 0;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,94 @@
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/box-sizing";
+
+.cssClass {
+    display: block;
+    position: absolute;
+    width: 100%;
+    ul.menu {
+        display: block;
+        height: 40px;
+        width: 100%;
+        position: absolute;
+        @include pie-clearfix;
+        border: 1px solid #e1e1e1;
+        background: white;
+        background: #F6F6F6;
+        &.fixed {
+            position: fixed;
+            top: 0;
+        }
+        li {
+            float: left;
+            display: block;
+            > a {
+                @include box-sizing(border-box);
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 11px;
+                display: block;
+                padding: 11px;
+                text-align: center;
+                color: #333;
+                &:hover {
+                    background: #82CFA2;
+                    color: white;
+                }
+            }
+            &:first-child {
+                .dropdown {
+                    > ul {
+                        margin-left: -1px;
+                    }
+                }
+            }
+            &.selected, &.current {
+                > a {
+                    background: #82CFA2;
+                    color: white;
+                }
+            }
+            .dropdown {
+                width: 100%;
+                > ul {
+                    @include box-sizing(border-box);
+                    float: left;
+                    min-width: 300px;
+                    max-width: 500px;
+                    background: white;
+                    position: relative;
+                    border: 1px solid #e1e1e1;
+                    background: #F6F6F6;
+                    li {
+                        float: left;
+                        position: relative;
+                        width: 100%;
+                        &:first-child {
+                            &:after, &:before { bottom: 100%; left: 25px; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; }
+                            &:after { border-color: rgba(136, 183, 213, 0); border-bottom-color: #F6F6F6; border-width: 10px; margin-left: -10px; }
+                            &:before { border-color: rgba(194, 225, 245, 0); border-bottom-color: #e1e1e1; border-width: 11px; margin-left: -11px; }
+                            &:hover {
+                                &:after { border-color: rgba(136, 183, 213, 0); border-bottom-color: #82CFA2; border-width: 10px; margin-left: -10px; }
+                            }
+                        }
+                        a {
+                            text-align: left;
+                            padding: 5px 10px;
+                            font-weight: 100;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.gt576 {
+        ul.menu {
+            li {
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

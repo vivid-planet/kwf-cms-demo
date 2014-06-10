@@ -1,0 +1,26 @@
+.cssClass {
+    table {
+        &.standard {
+            border-collapse: collapse;
+            thead, tbody {
+                tr {
+                    th, td {
+                        border: 1px solid #E1E1E1;
+                        padding: 2px 6px;
+                        line-height: 22px;
+                    }
+                    &.even {
+                        td {
+                            background: #E1E1E1;
+                        }
+                    }
+                    &:hover {
+                        td {
+                            background: #CCC;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,215 @@
+@import "susy";
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/box-sizing";
+@import "compass/css3/transform";
+@import "compass/css3/transition";
+@import "compass/css3/box-shadow";
+
+
+$total-columns: 10;
+$main-total-columns: 10;
+$column-width: 1100px / $total-columns;
+$gutter-width: 0px;
+$grid-padding: 0px;
+
+$container-style: magic;
+
+html, body {
+    height: 100%;
+}
+
+.cssClass {
+    #page {
+        height: auto;
+        height: 100%;
+        position: relative;
+        width: 100%;
+        min-width: 320px;
+
+        #outerTop {
+            background: #EFEFEF;
+            border-bottom: 1px solid #E1E1E1;
+            #top {
+                @include container;
+            }
+        }
+
+        /*---------------------------------------- HEADER -----------------------------------------*/
+        #outerHeader {
+            background: $orange;
+            position: relative;
+            display: block;
+            width: 100%;
+            border-bottom: 1px solid #e1e1e1;
+            z-index: 50;
+            height: 140px;
+
+            @include at-breakpoint(5 no-mediaqueries) {
+                position: absolute;
+            }
+
+            #header {
+                @include container;
+                min-height: 120px;
+                padding: 0 20px;
+                position: relative;
+
+                .logo {
+                    @include span-columns(10, $main-total-columns);
+                }
+            }
+            #mainMenu {
+                @include container;
+                display:none;
+                @include at-breakpoint(6 no-mediaqueries) {
+                    position: relative;
+                    display: block;
+                }
+                ul.menu {
+                    @include container;
+                }
+            }
+
+            #verticalMenu {
+                @include container;
+                @include pie-clearfix;
+                position: relative;
+                display: block;
+                @include at-breakpoint(6 no-mediaqueries) {
+                    display: none;
+                }
+            }
+        }
+        /*---------------------------------------- CONTENT -----------------------------------------*/
+        #outerContent {
+            z-index: 0;
+            height: auto;
+            overflow-x: hidden;
+            min-height: 100%;
+            position: relative;
+            width: 100%;
+            #content {
+
+                @include box-sizing(border-box);
+                position: relative;
+
+                @include at-breakpoint(5 no-mediaqueries) {
+                    padding: 140px 0 0 0;
+                }
+
+                #stage {
+                    .content {
+                        @include container;
+                        padding: 0 20px;
+                        @include at-breakpoint(10 no-mediaqueries) {
+                            padding: 0;
+                        }
+                    }
+                }
+
+                #innerContent {
+                    margin: 40px 0 0 0;
+                    padding-bottom: 140px;
+                    > .kwfMainContent > .kwcParagraphs,
+                    > .kwfMainContent > .themeHome > .kwcParagraphs {
+                        > .kwcParagraphItem {
+                            @include container;
+                            @include box-sizing(border-box);
+                            padding: 0 20px;
+                            display: block;
+                            margin: 0 auto;
+                            float: none;
+                            @include at-breakpoint(10 no-mediaqueries) {
+                                padding: 0;
+                            }
+
+                            &.outerThemeParagraphsGroup {
+                                max-width: 100%;
+                                padding: 0;
+                                background: #e1e1e1;
+
+                                > div {
+                                    @include container;
+                                    @include box-sizing(border-box);
+                                    padding-left: 20px;
+                                    padding-right: 20px;
+                                    display: block;
+                                    margin: 0 auto;
+                                    float: none;
+                                    @include at-breakpoint(10 no-mediaqueries) {
+                                        padding-left: 0;
+                                        padding-rigth: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    > .kwfMainContent > .kwcAbstractComposite {
+                        @include container;
+                        @include box-sizing(border-box);
+                        padding: 0 20px;
+                        display: block;
+                        margin: 0 auto;
+                        float: none;
+                        @include at-breakpoint(10 no-mediaqueries) {
+                            padding: 0;
+                        }
+
+                    }
+                }
+            }
+        }
+        /*---------------------------------------- FOOTER -----------------------------------------*/
+        #outerFooter {
+            background: #404551;
+            height: auto;
+            min-height: 140px;
+            margin-top: -140px;
+            position: relative;
+            bottom: 0px;
+            width: 100%;
+            #footer {
+                @include container;
+                padding: 20px 20px 0 20px;
+                color: white;
+
+                @include at-breakpoint(10 no-mediaqueries) {
+                    padding: 20px 0 0 0;
+                }
+                .footerText {
+                    p {
+                        color: white;
+                    }
+                    @include span-columns(10 omega, $main-total-columns);
+
+                    @include at-breakpoint(6 no-mediaqueries) {
+                        @include span-columns(5, $main-total-columns);
+                    }
+                }
+
+
+                .bottomMenu {
+                    @include span-columns(10 omega, $main-total-columns);
+
+                    .themeMenuBottom {
+                        ul.menu {
+                            float: left;
+                            margin-top: 20px;
+                        }
+                    }
+                    @include at-breakpoint(6 no-mediaqueries) {
+                        @include span-columns(5 omega, $main-total-columns);
+                        .themeMenuBottom {
+
+                            ul.menu {
+                                float: right;
+                                margin-top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
