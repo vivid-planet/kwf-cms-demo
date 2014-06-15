@@ -12,15 +12,6 @@ INSERT INTO `kwc_basic_cards` (`component_id`, `component`) VALUES
 ('54-48-21-49-linkTag', 'none');
 
 --
--- Daten für Tabelle `kwc_basic_html`
---
-
-INSERT INTO `kwc_basic_html` (`component_id`, `content`) VALUES
-('1-23-background', '#cccccc'),
-('1-25-background', '#f6f6f6'),
-('1-27-background', '#66666');
-
---
 -- Daten für Tabelle `kwc_basic_image`
 --
 
@@ -425,13 +416,6 @@ INSERT INTO `kwf_pages` (`id`, `pos`, `parent_id`, `parent_subroot_id`, `is_home
 (56, 1, 'root-top', 'root', 0, 'contact_1', 'Contact', 1, 'all', 0, 'link', 0),
 (59, 3, 'root-main', 'root', 0, 'news', 'News', 1, 'all', 0, 'news', 0);
 
-
---
--- Daten für Tabelle `kwf_update`
---
-
-INSERT INTO `kwf_update` (`data`) VALUES
-('a:65:{i:0;N;i:1;s:30:"Kwc_Basic_DownloadTag_Update_1";i:2;s:31:"Kwc_Basic_LinkTag_Mail_Update_1";i:3;s:33:"Kwc_Basic_LinkTag_Extern_Update_1";i:4;s:33:"Kwc_Basic_LinkTag_Intern_Update_1";i:5;s:27:"Kwc_Abstract_Image_Update_1";i:6;s:24:"Kwc_Basic_Space_Update_1";i:7;s:24:"Kwc_Basic_Table_Update_1";i:8;s:23:"Kwc_Basic_Link_Update_1";i:9;s:27:"Kwc_Basic_Download_Update_1";i:10;s:27:"Kwc_Abstract_Cards_Update_1";i:11;s:26:"Kwc_Abstract_List_Update_1";i:12;s:23:"Kwc_Paragraphs_Update_1";i:13;s:26:"Kwc_Root_Category_Update_1";i:14;s:23:"Kwc_Basic_Text_Update_1";i:15;s:24:"Kwc_Basic_Table_Update_2";i:16;s:23:"Kwc_Paragraphs_Update_2";i:17;s:26:"Kwc_Root_Category_Update_2";i:18;s:27:"Kwc_Abstract_Cards_Update_2";i:19;s:26:"Kwc_Root_Category_Update_3";i:20;s:27:"Kwc_Abstract_Cards_Update_3";i:21;s:23:"Kwc_Paragraphs_Update_3";i:22;s:24:"Kwc_Basic_Table_Update_3";i:23;s:26:"Kwc_Root_Category_Update_4";i:24;s:26:"Kwc_Root_Category_Update_5";i:25;s:35:"Kwc_Advanced_GoogleMap_Update_22701";i:26;s:31:"Kwc_Legacy_Columns_Update_31678";i:27;s:37:"Kwc_Basic_LinkTag_Intern_Update_32519";i:28;s:37:"Kwc_Basic_LinkTag_Intern_Update_32520";i:29;s:31:"Kwc_Abstract_Image_Update_33317";i:30;s:27:"Kwc_Basic_Text_Update_34384";i:31;s:27:"Kwc_Basic_Text_Update_34385";i:32;s:30:"Kwc_Menu_Abstract_Update_35365";i:33;s:30:"Kwc_Menu_Abstract_Update_35366";i:34;s:16:"Kwf_Update_36000";i:35;s:16:"Kwf_Update_36001";i:36;s:16:"Kwf_Update_36002";i:37;s:16:"Kwf_Update_37010";i:38;s:30:"Kwc_Abstract_List_Update_37310";i:39;s:30:"Kwc_Abstract_List_Update_37311";i:40;s:30:"Kwc_Abstract_List_Update_37312";i:41;s:31:"Kwc_Legacy_Columns_Update_37315";i:42;s:31:"Kwc_Legacy_Columns_Update_37316";i:43;s:35:"Kwc_Advanced_GoogleMap_Update_37684";i:44;s:35:"Kwc_Advanced_GoogleMap_Update_37685";i:45;s:16:"Kwf_Update_38000";i:46;s:29:"Kwc_List_Gallery_Update_38000";i:47;s:16:"Kwf_Update_38004";i:48;s:16:"Kwf_Update_38005";i:49;s:16:"Kwf_Update_38006";i:50;s:16:"Kwf_Update_38007";i:51;s:16:"Kwf_Update_38008";i:52;s:16:"Kwf_Update_38009";i:53;s:16:"Kwf_Update_38010";i:54;s:16:"Kwf_Update_38011";i:55;s:31:"Kwc_Abstract_Image_Update_40000";i:56;s:31:"Kwc_Abstract_Image_Update_40001";i:57;s:31:"Kwc_Abstract_Image_Update_40002";i:58;s:23:"Kwc_Basic_Html_Update_1";i:59;s:20:"Kwc_Columns_Update_1";i:60;s:43:"Kwc_Directories_Category_Directory_Update_1";i:61;s:40:"Kwc_News_Category_Directory_Update_34539";i:62;s:40:"Kwc_News_Category_Directory_Update_34540";i:63;s:31:"Kwc_News_Directory_Update_34540";i:64;s:40:"Kwc_News_Category_Directory_Update_34541";}');
 
 --
 -- Daten für Tabelle `kwf_uploads`
