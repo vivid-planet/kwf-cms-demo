@@ -1,5 +1,6 @@
 Kwf.Utils.ResponsiveEl('.themeMenuMain', [576]);
 
+/* Kwf.Utils.StickyHeader ?*/
 Kwf.onJElementReady('.themeMenuMain', function(el){
 
     $(window).scroll(function(e){
