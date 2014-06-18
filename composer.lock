@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "016dc1204795465187acf1e93b33aee47be61775"
+                "reference": "6d569b325642bc90797a78452fad1365a209c879"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/016dc1204795465187acf1e93b33aee47be61775",
-                "reference": "016dc1204795465187acf1e93b33aee47be61775",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/6d569b325642bc90797a78452fad1365a209c879",
+                "reference": "6d569b325642bc90797a78452fad1365a209c879",
                 "shasum": ""
             },
             "require": {
@@ -54,7 +54,7 @@
                 "BSD-2-Clause"
             ],
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-06-14 08:57:20"
+            "time": "2014-06-18 11:24:24"
         },
         {
             "name": "koala-framework/library-compass-mixins",
@@ -108,12 +108,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/library-extjs2.git",
-                "reference": "594b9dfdb643bc47813657dcc465025701a3125c"
+                "reference": "582ba7e2279cd9aa32b90877049741dd3c1deef0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/library-extjs2/zipball/594b9dfdb643bc47813657dcc465025701a3125c",
-                "reference": "594b9dfdb643bc47813657dcc465025701a3125c",
+                "url": "https://api.github.com/repos/koala-framework/library-extjs2/zipball/582ba7e2279cd9aa32b90877049741dd3c1deef0",
+                "reference": "582ba7e2279cd9aa32b90877049741dd3c1deef0",
                 "shasum": ""
             },
             "type": "library",
@@ -123,7 +123,7 @@
             ],
             "description": "ExtJS JavaScript Library",
             "homepage": "http://www.sencha.com/products/extjs/",
-            "time": "2014-05-28 14:30:51"
+            "time": "2014-05-28 18:18:19"
         },
         {
             "name": "koala-framework/library-htmlawed",
@@ -173,16 +173,16 @@
         },
         {
             "name": "koala-framework/library-modernizr",
-            "version": "v1.8.2-p0",
+            "version": "v1.8.2-p1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/library-modernizr.git",
-                "reference": "d26cccbb49e6c002d2b0f0e877fe2b1ea9257d63"
+                "reference": "5eebf92eba5f2e4ec36de646dc5f25e57b45d92a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/library-modernizr/zipball/d26cccbb49e6c002d2b0f0e877fe2b1ea9257d63",
-                "reference": "d26cccbb49e6c002d2b0f0e877fe2b1ea9257d63",
+                "url": "https://api.github.com/repos/koala-framework/library-modernizr/zipball/5eebf92eba5f2e4ec36de646dc5f25e57b45d92a",
+                "reference": "5eebf92eba5f2e4ec36de646dc5f25e57b45d92a",
                 "shasum": ""
             },
             "type": "library",
@@ -192,7 +192,7 @@
             ],
             "description": "Modernizr JavaScript Library",
             "homepage": "http://modernizr.com/",
-            "time": "2014-06-03 07:42:55"
+            "time": "2014-06-16 06:34:49"
         },
         {
             "name": "koala-framework/library-silkicons",
@@ -283,12 +283,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/library-swfupload.git",
-                "reference": "2df9f377d524991c188e90c75a380171ae5fd3c6"
+                "reference": "7eb7c5c2a7a0d7144c2acd35131367c8fcb6683c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/library-swfupload/zipball/2df9f377d524991c188e90c75a380171ae5fd3c6",
-                "reference": "2df9f377d524991c188e90c75a380171ae5fd3c6",
+                "url": "https://api.github.com/repos/koala-framework/library-swfupload/zipball/7eb7c5c2a7a0d7144c2acd35131367c8fcb6683c",
+                "reference": "7eb7c5c2a7a0d7144c2acd35131367c8fcb6683c",
                 "shasum": ""
             },
             "require": {
@@ -299,9 +299,9 @@
             "license": [
                 "MIT"
             ],
-            "description": "ExtJS JavaScript Library",
+            "description": "SWFUpload JavaScript Library",
             "homepage": "http://code.google.com/p/swfupload/",
-            "time": "2014-05-23 13:42:42"
+            "time": "2014-06-02 08:22:41"
         },
         {
             "name": "koala-framework/library-tinymce",
@@ -370,20 +370,12 @@
             "time": "2014-05-28 14:13:03"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "koala-framework/koala-framework": 20
     },
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "platform": [],
+    "platform-dev": []
 }
