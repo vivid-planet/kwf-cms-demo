@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "41df0e4792d8d093874777e404fcb5a0",
+    "hash": "3b8b78cd8f58a3137aadac4fba69e24a",
     "packages": [
         {
             "name": "koala-framework/koala-framework",
-            "version": "dev-composer",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "6d569b325642bc90797a78452fad1365a209c879"
+                "reference": "8e186b79832083bc998975d4f14e4855dd1a54a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/6d569b325642bc90797a78452fad1365a209c879",
-                "reference": "6d569b325642bc90797a78452fad1365a209c879",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/8e186b79832083bc998975d4f14e4855dd1a54a9",
+                "reference": "8e186b79832083bc998975d4f14e4855dd1a54a9",
                 "shasum": ""
             },
             "require": {
@@ -54,7 +54,7 @@
                 "BSD-2-Clause"
             ],
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-06-18 11:24:24"
+            "time": "2014-06-18 14:17:01"
         },
         {
             "name": "koala-framework/library-compass-mixins",
