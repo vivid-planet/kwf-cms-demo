@@ -13,5 +13,7 @@ config_section
 library
 config_section
 benchmark
-build
-vendor
+/build
+/vendor
+/bower.json
+/.bowerrc

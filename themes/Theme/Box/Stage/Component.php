@@ -1,5 +1,5 @@
 <?php
-class Theme_Box_Stage_Component extends Kwc_List_Fade_Component
+class Theme_Box_Stage_Component extends Kwc_Legacy_List_Fade_Component
 {
     public static function getSettings()
     {
