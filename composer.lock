@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "koala-framework/composer-extra-assets",
-            "version": "v1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/composer-extra-assets.git",
-                "reference": "f662a64cabf23d66caee90d53862cc8a44397e29"
+                "reference": "459cf6fe10f175a4ec7e00f24e4ebd7fe45cb92b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/composer-extra-assets/zipball/f662a64cabf23d66caee90d53862cc8a44397e29",
-                "reference": "f662a64cabf23d66caee90d53862cc8a44397e29",
+                "url": "https://api.github.com/repos/koala-framework/composer-extra-assets/zipball/459cf6fe10f175a4ec7e00f24e4ebd7fe45cb92b",
+                "reference": "459cf6fe10f175a4ec7e00f24e4ebd7fe45cb92b",
                 "shasum": ""
             },
             "require": {
@@ -44,7 +44,7 @@
             ],
             "description": "Composer Plugin for installing Assets using native npm/bower",
             "homepage": "https://github.com/koala-framework/composer-extra-assets",
-            "time": "2014-09-14 20:26:30"
+            "time": "2014-11-21 13:47:35"
         },
         {
             "name": "koala-framework/extjs2",
@@ -75,16 +75,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "f30040fe32bd8a39341c2dde4375f5ef5fafef3e"
+                "reference": "e400c623e1b1af8326f842196e789ac076879591"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/f30040fe32bd8a39341c2dde4375f5ef5fafef3e",
-                "reference": "f30040fe32bd8a39341c2dde4375f5ef5fafef3e",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/e400c623e1b1af8326f842196e789ac076879591",
+                "reference": "e400c623e1b1af8326f842196e789ac076879591",
                 "shasum": ""
             },
             "require": {
-                "koala-framework/composer-extra-assets": "1.0.0",
+                "koala-framework/composer-extra-assets": "1.0.x-dev",
                 "koala-framework/extjs2": "2.3.0.*",
                 "koala-framework/kwf-modernizr": "3.8.x-dev",
                 "koala-framework/library-css3pie": "1.0.0",
@@ -138,7 +138,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-11-20 11:58:49"
+            "time": "2014-11-21 13:57:33"
         },
         {
             "name": "koala-framework/kwf-modernizr",
@@ -146,16 +146,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/kwf-modernizr.git",
-                "reference": "4936f95e118011878f7be4eda95a79f0fd40e871"
+                "reference": "e1959c79d9037c9c9f2cd116086412603a81b3bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/kwf-modernizr/zipball/4936f95e118011878f7be4eda95a79f0fd40e871",
-                "reference": "4936f95e118011878f7be4eda95a79f0fd40e871",
+                "url": "https://api.github.com/repos/koala-framework/kwf-modernizr/zipball/e1959c79d9037c9c9f2cd116086412603a81b3bb",
+                "reference": "e1959c79d9037c9c9f2cd116086412603a81b3bb",
                 "shasum": ""
-            },
-            "require": {
-                "koala-framework/composer-extra-assets": "1.0.0"
             },
             "require-dev": {
                 "koala-framework/koala-framework": "3.8.x-dev",
@@ -180,7 +177,7 @@
             ],
             "description": "Modernizr Integration for Koala Framework",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-10-22 08:07:18"
+            "time": "2014-11-21 13:43:14"
         },
         {
             "name": "koala-framework/library-css3pie",
@@ -390,12 +387,12 @@
             "version": "v1.16.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fabpot/Twig.git",
+                "url": "https://github.com/twigphp/Twig.git",
                 "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/7c4c01dcf578523cfcddf383641a4f12790270ec",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/7c4c01dcf578523cfcddf383641a4f12790270ec",
                 "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec",
                 "shasum": ""
             },
