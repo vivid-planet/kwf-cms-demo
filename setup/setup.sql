@@ -16,38 +16,27 @@ INSERT INTO `kwc_basic_cards` (`component_id`, `component`) VALUES
 --
 
 INSERT INTO `kwc_basic_image` (`component_id`, `filename`, `width`, `height`, `enlarge`, `kwf_upload_id`, `dimension`, `data`, `crop_x`, `crop_y`, `crop_width`, `crop_height`) VALUES
-('1-13-12-14', NULL, NULL, NULL, 0, 25, 'default', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
-('1-13-13-18', NULL, NULL, NULL, 0, 26, 'default', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
-('1-13-14-21', NULL, NULL, NULL, 0, 27, 'default', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
-('1-stage-30', NULL, NULL, NULL, 0, 28, 'fullWidth', '{"alt_text":""}', NULL, NULL, NULL, NULL),
-('1-stage-31', NULL, NULL, NULL, 0, 38, 'fullWidth', '{"alt_text":""}', 0, 1066, 3264, 892),
+('1-13-12-14', NULL, NULL, NULL, 0, 'f73b4552-87c7-458d-bc17-e77f5207fc72', 'default', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
+('1-13-13-18', NULL, NULL, NULL, 0, '458b5e18-803a-4cb8-bcf1-a1618214b983', 'default', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
+('1-13-14-21', NULL, NULL, NULL, 0, '1c59efbe-0905-4639-9622-801181507b4c', 'default', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
+('1-stage-30', NULL, NULL, NULL, 0, '035c4eed-8b14-4a13-a1de-7f93ed837cd6', 'fullWidth', '{"alt_text":""}', NULL, NULL, NULL, NULL),
+('1-stage-31', NULL, NULL, NULL, 0, '196ae70b-28c2-458c-aca3-ac291bfa04d3', 'fullWidth', '{"alt_text":""}', 0, 1066, 3264, 892),
 ('1-stage-8', NULL, NULL, NULL, 0, 5, 'fullWidth', '{"alt_text":""}', 0, 1010, 5184, 1010),
 ('1-stage-9', NULL, NULL, NULL, 0, 6, 'fullWidth', '{"alt_text":""}', 0, 1477, 5184, 1010),
 ('2-stage-10', NULL, NULL, NULL, 0, 7, 'fullWidth', '{"alt_text":""}', 0, 1278, 5184, 1010),
 ('2-stage-11', NULL, NULL, NULL, 0, 8, 'fullWidth', '{"alt_text":""}', 0, 1214, 5096, 993),
 ('2-stage-6', NULL, NULL, NULL, 0, 3, 'fullWidth', '{"alt_text":""}', NULL, NULL, NULL, NULL),
 ('2-stage-7', NULL, NULL, NULL, 0, 4, 'fullWidth', '{"alt_text":""}', 0, 1468, 5184, 1010),
-('51-40-19', NULL, NULL, NULL, 0, 31, 'fullWidth', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
-('51-40-20', NULL, NULL, NULL, 0, 32, 'fullWidth', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
-('51-40-25', NULL, NULL, NULL, 0, 33, 'fullWidth', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
-('51-40-26', NULL, NULL, NULL, 0, 34, 'fullWidth', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
-('51-40-27', NULL, NULL, NULL, 0, 35, 'fullWidth', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
-('51-40-28', NULL, NULL, NULL, 0, 36, 'fullWidth', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
-('54-48-21-49', NULL, NULL, NULL, 0, 30, 'default', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
+('51-40-19', NULL, NULL, NULL, 0, '918b791b-fcb7-4c3f-9941-ebe14fdc3884', 'fullWidth', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
+('51-40-20', NULL, NULL, NULL, 0, 'ad5ec11b-8586-4d07-995c-4197b0490f7b', 'fullWidth', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
+('51-40-25', NULL, NULL, NULL, 0, 'f2375b70-3ab1-466d-86df-7970e1957a0f', 'fullWidth', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
+('51-40-26', NULL, NULL, NULL, 0, '88682ac2-2f0f-4802-88c7-f78817d5fdf2', 'fullWidth', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
+('51-40-27', NULL, NULL, NULL, 0, 'ccfe70b7-145a-4233-85fe-48301339c15f', 'fullWidth', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
+('51-40-28', NULL, NULL, NULL, 0, 'c7b02a58-f6a3-4b6c-89b1-e90cf2765bd1', 'fullWidth', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
+('54-48-21-49', NULL, NULL, NULL, 0, '2fd36336-26d7-4ac3-8d9b-9cb09f1d6b09', 'default', '{"image_caption":"","alt_text":""}', NULL, NULL, NULL, NULL),
 ('news_1-image', NULL, 120, 90, 0, 13, '0', '{"alt_text":""}', NULL, NULL, NULL, NULL),
-('news_10-image', NULL, 120, 90, 0, NULL, '0', '{"alt_text":""}', NULL, NULL, NULL, NULL),
-('news_11-image', NULL, 120, 90, 0, NULL, '0', '{"alt_text":""}', NULL, NULL, NULL, NULL),
-('news_12-image', NULL, 120, 90, 0, NULL, '0', '{"alt_text":""}', NULL, NULL, NULL, NULL),
 ('news_2-image', NULL, 120, 90, 0, 14, '0', '{"alt_text":""}', NULL, NULL, NULL, NULL),
-('news_3-image', NULL, 120, 90, 0, NULL, '0', '{"alt_text":""}', NULL, NULL, NULL, NULL),
-('news_4-image', NULL, 120, 90, 0, NULL, '0', '{"alt_text":""}', NULL, NULL, NULL, NULL),
-('news_5-image', NULL, 120, 90, 0, NULL, '0', '{"alt_text":""}', NULL, NULL, NULL, NULL),
-('news_6-image', NULL, 120, 90, 0, NULL, '0', '{"alt_text":""}', NULL, NULL, NULL, NULL),
-('news_7-image', NULL, 120, 90, 0, NULL, '0', '{"alt_text":""}', NULL, NULL, NULL, NULL),
-('news_8-image', NULL, 120, 90, 0, NULL, '0', '{"alt_text":""}', NULL, NULL, NULL, NULL),
-('news_9-image', NULL, 120, 90, 0, NULL, '0', '{"alt_text":""}', NULL, NULL, NULL, NULL),
-('root-footerText-53', NULL, NULL, NULL, 0, 18, 'original', '{"alt_text":""}', NULL, NULL, NULL, NULL),
-('root-logo', NULL, NULL, NULL, 0, 24, 'default', '{"alt_text":""}', NULL, NULL, NULL, NULL);
+('root-logo', NULL, NULL, NULL, 0, '728ae413-0b9a-45e5-b972-6d8bc168bd05', 'default', '{"alt_text":""}', NULL, NULL, NULL, NULL);
 
 --
 -- Daten für Tabelle `kwc_basic_link_extern`
@@ -420,23 +409,20 @@ INSERT INTO `kwf_pages` (`id`, `pos`, `parent_id`, `parent_subroot_id`, `is_home
 --
 -- Daten für Tabelle `kwf_uploads`
 --
-
 INSERT INTO `kwf_uploads` (`id`, `filename`, `extension`, `mime_type`) VALUES
-(24, 'LogoFinal2014', 'png', 'image/png'),
-(25, 'koalaTestPicture1200', 'png', 'image/png'),
-(26, 'koalaTestPicture1200', 'png', 'image/png'),
-(27, 'koalaTestPicture1200', 'png', 'image/png'),
-(28, 'AVE2-DAR', 'JPG', 'image/jpeg'),
-(29, 'P1070821', 'JPG', 'image/jpeg'),
-(30, 'koalaTestPicture1200', 'png', 'image/png'),
-(31, 'koalaTestPicture1200', 'png', 'image/png'),
-(32, 'koalaTestPicture1200', 'png', 'image/png'),
-(33, 'koalaTestPicture1200', 'png', 'image/png'),
-(34, 'koalaTestPicture1200', 'png', 'image/png'),
-(35, 'koalaTestPicture1200', 'png', 'image/png'),
-(36, 'koalaTestPicture1200', 'png', 'image/png'),
-(37, 'P1070821', 'jpg', 'image/jpeg'),
-(38, 'P1070821', 'jpg', 'image/jpeg');
+('728ae413-0b9a-45e5-b972-6d8bc168bd05', 'LogoFinal2014', 'png', 'image/png'),
+('f73b4552-87c7-458d-bc17-e77f5207fc72', 'koalaTestPicture1200', 'png', 'image/png'),
+('458b5e18-803a-4cb8-bcf1-a1618214b983', 'koalaTestPicture1200', 'png', 'image/png'),
+('1c59efbe-0905-4639-9622-801181507b4c', 'koalaTestPicture1200', 'png', 'image/png'),
+('035c4eed-8b14-4a13-a1de-7f93ed837cd6', 'AVE2-DAR', 'JPG', 'image/jpeg'),
+('2fd36336-26d7-4ac3-8d9b-9cb09f1d6b09', 'koalaTestPicture1200', 'png', 'image/png'),
+('918b791b-fcb7-4c3f-9941-ebe14fdc3884', 'koalaTestPicture1200', 'png', 'image/png'),
+('ad5ec11b-8586-4d07-995c-4197b0490f7b', 'koalaTestPicture1200', 'png', 'image/png'),
+('f2375b70-3ab1-466d-86df-7970e1957a0f', 'koalaTestPicture1200', 'png', 'image/png'),
+('88682ac2-2f0f-4802-88c7-f78817d5fdf2', 'koalaTestPicture1200', 'png', 'image/png'),
+('ccfe70b7-145a-4233-85fe-48301339c15f', 'koalaTestPicture1200', 'png', 'image/png'),
+('c7b02a58-f6a3-4b6c-89b1-e90cf2765bd1', 'koalaTestPicture1200', 'png', 'image/png'),
+('196ae70b-28c2-458c-aca3-ac291bfa04d3', 'P1070821', 'jpg', 'image/jpeg');
 
 --
 -- Daten für Tabelle `kwf_users`
