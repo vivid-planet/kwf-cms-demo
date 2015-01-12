@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/composer-extra-assets.git",
-                "reference": "b7a97bffbe815f92b1976523abdae836feb45d3e"
+                "reference": "928695baebee8b0a2cc5ad233f4824a1155365fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/composer-extra-assets/zipball/b7a97bffbe815f92b1976523abdae836feb45d3e",
-                "reference": "b7a97bffbe815f92b1976523abdae836feb45d3e",
+                "url": "https://api.github.com/repos/koala-framework/composer-extra-assets/zipball/928695baebee8b0a2cc5ad233f4824a1155365fe",
+                "reference": "928695baebee8b0a2cc5ad233f4824a1155365fe",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
             ],
             "description": "Composer Plugin for installing Assets using native npm/bower",
             "homepage": "https://github.com/koala-framework/composer-extra-assets",
-            "time": "2014-12-07 10:39:35"
+            "time": "2014-12-22 19:30:09"
         },
         {
             "name": "koala-framework/extjs2",
@@ -72,12 +72,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "286c4785b54633471798b611247683b95055111b"
+                "reference": "7560fffa9a44725f75732ec87c6136f8f082577a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/286c4785b54633471798b611247683b95055111b",
-                "reference": "286c4785b54633471798b611247683b95055111b",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/7560fffa9a44725f75732ec87c6136f8f082577a",
+                "reference": "7560fffa9a44725f75732ec87c6136f8f082577a",
                 "shasum": ""
             },
             "require": {
@@ -90,6 +90,7 @@
                 "koala-framework/library-swfupload": "2.2.0.1",
                 "koala-framework/sourcemaps": "0.1.x-dev",
                 "koala-framework/zendframework1": "1.12.6.*",
+                "symfony/process": "2.7.*",
                 "twig/twig": "1.16.1"
             },
             "require-dev": {
@@ -135,7 +136,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-12-15 13:43:13"
+            "time": "2015-01-07 10:28:27"
         },
         {
             "name": "koala-framework/kwf-modernizr",
@@ -383,6 +384,53 @@
                 "framework"
             ],
             "time": "2014-12-15 13:49:08"
+        },
+        {
+            "name": "symfony/process",
+            "version": "2.7.x-dev",
+            "target-dir": "Symfony/Component/Process",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Process.git",
+                "reference": "eb512e3b08841f1e0e39960d69109e47c729988b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/eb512e3b08841f1e0e39960d69109e47c729988b",
+                "reference": "eb512e3b08841f1e0e39960d69109e47c729988b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Process\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-01-09 06:51:41"
         },
         {
             "name": "twig/twig",
