@@ -3,14 +3,9 @@ querylog
 .project
 .buildpath
 .settings
-include_path
-update
 eventlog
 benchmarklog
-kwf-lib
 config.local.ini
-config_section
-library
 config_section
 benchmark
 /build
