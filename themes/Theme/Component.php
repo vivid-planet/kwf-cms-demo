@@ -65,7 +65,7 @@ class Theme_Component extends Kwf_Component_Theme_Abstract
         $ret['assets']['files'][] = 'web/themes/Theme/Master.scss';
         $ret['assets']['files'][] = 'web/themes/Theme/Web.scss';
         $ret['assets']['files'][] = 'web/themes/Theme/Master.js';
-        $ret['assets']['dep'][] = 'ModernizrCssMediaQueries';
+        $ret['assets']['dep'][] = 'ModernizrCssMediaqueries';
         return $ret;
     }
 }
